@@ -1,0 +1,5 @@
+l<-as.numeric(readline(prompt="Enter length of cuboid = "))
+b<-as.numeric(readline(prompt="Enter breadth of cuboid = "))
+h<-as.numeric(readline(prompt="Enter height of cuboid = "))
+tsa<-2*(l*b+b*h+h*l)
+cat("TSA = ",tsa)

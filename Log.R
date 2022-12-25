@@ -1,0 +1,6 @@
+n<-readline(prompt="Enter a number = ")
+n<-as.numeric(n)
+b<-readline(prompt="Enter base = ")
+b<-as.integer(b)
+l<-log(n,b)
+cat("Log of",n,"base",b,"=",l)
