@@ -1,5 +1,5 @@
 while(TRUE){
-  choice<-menu(c("Mathematical Calculator","Area Calculator","Perimeter Calculator","Volume Calculator","Curved Surface Area Calculator","Total Surface Area Calculator","Matrix Calculator","Statistical Calculator","Numerical Method Calculator","Simulation Calculator"),graphics=TRUE,title="CALCULATOR")
+  choice<-menu(c("Mathematical Calculator","Area Calculator","Perimeter Calculator","Volume Calculator","Curved Surface Area Calculator","Total Surface Area Calculator","Matrix Calculator"),graphics=TRUE,title="CALCULATOR")
   if(choice==0)
     break
   else if(choice==1){
